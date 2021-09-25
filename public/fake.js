@@ -1,0 +1,93 @@
+const data = [
+    {
+        id: 1001,
+        name: 'Jhanker Mahbub',
+        designation: 'CEO & Founder',
+        age: 42,
+        country: "BD",
+        salary: 75000,
+        image: "https://web.programming-hero.com/public/1625573122618.png"
+
+    },
+    {
+        id: 1002,
+        name: 'Rezaul Karim',
+        designation: 'Product Manager',
+        age: 35,
+        country: "BD",
+        salary: 38000,
+        image: "https://web.programming-hero.com/public/1625573334879.png"
+
+    },
+    {
+        id: 1003,
+        name: 'Solaiman Shadin',
+        designation: 'Web Developer',
+        age: 25,
+        country: "BD",
+        salary: 47000,
+        image: "https://web.programming-hero.com/public/1625573607305.png"
+
+    },
+    {
+        id: 1004,
+        name: 'Emdadul Hoque Tareque',
+        designation: 'Assistant Manager, Web Course',
+        age: 31,
+        country: "BD",
+        salary: 57000,
+        image: "https://web.programming-hero.com/public/1625574121230.png"
+
+    },
+    {
+        id: 1005,
+        name: 'Roky Das',
+        designation: 'Web Developer (Support Instructor)',
+        age: 23,
+        country: "BD",
+        salary: 27000,
+        image: "https://web.programming-hero.com/public/1625574140160.png"
+
+    },
+    {
+        id: 1006,
+        name: 'Gelabi Alam Faisal',
+        designation: 'Community Manager',
+        age: 21,
+        country: "BD",
+        salary: 41000,
+        image: "https://web.programming-hero.com/public/1625574229288.png"
+
+    },
+    {
+        id: 1007,
+        name: 'Md. Gias Uddin',
+        designation: 'Web Developer (Support Instructor)',
+        age: 26,
+        country: "BD",
+        salary: 52000,
+        image: "https://web.programming-hero.com/public/1625574531839.png"
+
+    },
+    {
+        id: 1008,
+        name: 'Shahriar Hoq Shubho',
+        designation: 'Job Placement Executive',
+        age: 27,
+        country: "BD",
+        salary: 27000,
+        image: "https://web.programming-hero.com/public/1628775674417.png"
+
+    },
+    {
+        id: 1009,
+        name: 'Md. Naeem Ahmed Opu',
+        designation: 'SEO And Social Media Marketer',
+        age: 25,
+        country: "BD",
+        salary: 18000,
+        image: "https://web.programming-hero.com/public/1628776137631.png"
+
+    },
+
+];
