@@ -1,11 +1,13 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import Cart from '../Cart/Cart';
 import Member from '../Member/Member';
 import "./Members.css";
 
 
 const Members = () => {
     const [members, setMembers] = useState([]);
+    const [cart, setCart] = useState([]);
 
     useEffect(() => {
         fetch('./fakeDB.json')
@@ -15,6 +17,11 @@ const Members = () => {
             });
     }, [])
 
+    const memberAddToCart = (member) => {
+        const newCart = [...cart, member];
+        setCart(newCart);
+    }
+
     return (
         <div className="container-fluid">
             <div className="row my-4">
@@ -22,13 +29,13 @@ const Members = () => {
                 <div className="col-md-9">
                     <div className="card-container">
                         {
-                            members.map(member => <Member member={member} key={member.id} ></Member>)
+                            members.map(member => <Member member={member} key={member.id} memberAddToCart={memberAddToCart} ></Member>)
                         }
                     </div>
                 </div>
 
                 <div className="col-md-3">
-                    <h1>cart</h1>
+                    <Cart cart={cart} key={cart.map(member => member.id)}></Cart>
                 </div>
 
             </div>
