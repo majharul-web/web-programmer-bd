@@ -7,7 +7,7 @@ import "./Members.css";
 
 const Members = () => {
     const [members, setMembers] = useState([]);
-    const [cart, setCart] = useState([]);
+    const [carts, setCarts] = useState([]);
 
     useEffect(() => {
         fetch('./fakeDB.json')
@@ -18,8 +18,8 @@ const Members = () => {
     }, [])
 
     const memberAddToCart = (member) => {
-        const newCart = [...cart, member];
-        setCart(newCart);
+        const newCart = [...carts, member];
+        setCarts(newCart);
     }
 
     return (
@@ -35,7 +35,7 @@ const Members = () => {
                 </div>
 
                 <div className="col-md-3">
-                    <Cart cart={cart} key={cart.map(member => member.id)}></Cart>
+                    <Cart cart={carts} key={carts.map(member => member.id)}></Cart>
                 </div>
 
             </div>

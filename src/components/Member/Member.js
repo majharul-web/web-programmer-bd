@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import "./Member.css"
 
 const Member = (props) => {
 
@@ -11,7 +12,7 @@ const Member = (props) => {
 
 
     return (
-        <div className="card shadow-lg" >
+        <div className="card shadow-lg card-color" >
             < img src={image} className="img-fluid" alt="..." />
 
             <div className="card-body">

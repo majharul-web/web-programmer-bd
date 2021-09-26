@@ -1,0 +1,8 @@
+.card-color {
+  background-color: #cbf7e1;
+  transition: 2s;
+}
+.card-color:hover {
+  background-color: white;
+  cursor: pointer;
+}
