@@ -79,5 +79,23 @@
     "country": "BD",
     "salary": 18000,
     "image": "https://web.programming-hero.com/public/1628776137631.png"
+  },
+  {
+    "id": 1010,
+    "name": "Rasel Ahmed",
+    "designation": "Product Manager",
+    "age": 33,
+    "country": "BD",
+    "salary": 37000,
+    "image": "https://web.programming-hero.com/public/1625419447111.png"
+  },
+  {
+    "id": 1011,
+    "name": "Muktadir Hassan",
+    "designation": "Web Developer (Support Instructor)",
+    "age": 33,
+    "country": "BD",
+    "salary": 25000,
+    "image": "https://web.programming-hero.com/public/1625574023463.png"
   }
 ]
