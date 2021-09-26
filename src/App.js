@@ -1,8 +1,11 @@
+import Header from "./components/Header/Header";
+import Members from "./components/Members/Members";
 
 function App() {
   return (
     <div>
-      <h1>start assignment 8</h1>
+      <Header></Header>
+      <Members></Members>
     </div>
   );
 }
